@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="A3734404-9072-B2A1-02EB-1718C454886E" name="Anchor" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

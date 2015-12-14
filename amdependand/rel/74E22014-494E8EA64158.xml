@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Anchor" id="74E22014-C126-F08D-87D0-494E8EA64158" mainViewID="A3734404-9072-B2A1-02EB-1718C454886E">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:22:25 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>

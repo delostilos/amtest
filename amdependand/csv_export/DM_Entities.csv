@@ -1,0 +1,4 @@
+Entity_Name,ObjectID,NumOID,ImportID,ModelID,Num_ModelID,Structured_Type_ID,Num_Structured_Type_ID,Structured_Type_Name,Number_Data_Elements,Classification_Type,Allow_Type_Substitution,Min_Volume,Expected_Volume,Max_Volume,Growth_Rate_Percents,Growth_Rate_Interval,Normal_Form,Temporary_Object_Scope,Adequately_Normalized,Substitution_Parent,Num_Substitution_Parent,Synonyms,Synonym_To_Display,Preferred_Abbreviation,SuperTypeEntity_ID,Num_SuperTypeEntity_ID,Engineering_Strategy,Owner,Entity_Source
+"Model",34301E89-9B61-3C5E-3E01-30CB859FB5E5,70,,21CD46E6-9812-9830-4376-F53EEDAFD219,69,,,,0,,Y,0,0,9999999,0,Year,Third,,N,,,,,,,,,,,
+"Table",9D61E4D3-0F44-B6FF-996D-A64D6E6E1F55,71,,21CD46E6-9812-9830-4376-F53EEDAFD219,69,,,,0,,Y,0,0,9999999,0,Year,Third,,N,,,,,,,,,,,
+"Term",338F9F90-129C-207B-EC9C-B36684F2DBB6,72,,21CD46E6-9812-9830-4376-F53EEDAFD219,69,,,,1,,Y,0,0,9999999,0,Year,Third,,N,,,,,,,,,,,

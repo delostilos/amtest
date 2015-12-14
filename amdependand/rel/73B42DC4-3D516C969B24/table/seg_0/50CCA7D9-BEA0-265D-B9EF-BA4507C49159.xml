@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" name="Table">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>9D61E4D3-0F44-B6FF-996D-A64D6E6E1F55</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Table_ID" id="36005599-8AA6-A388-993C-3968E169E39C">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Model_Model_ID" id="E4E1C4FE-AA59-596C-23C2-B3E8263B9B4A">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="386E3AC1-139C-AD97-A64C-9AFC1D0F07E8" referredColumn="DFB8465F-2081-124D-6435-D60394C3687C"/>
+</associations>
+</Column>
+<Column name="Term_Term_ID" id="E232C090-59F0-B546-0A97-306A0832A356">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2B2C45D-A3B2-D6E9-FA20-C80849168153" referredColumn="EC9010D6-80A9-AC19-DFA9-D0181256361B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1F67055-0721-949E-1733-9D56D006DFEC" name="Table_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="36005599-8AA6-A388-993C-3968E169E39C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B86BAF-3116-EF27-6128-750DA06B3D1B" name="Table__UN">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>971B12B1-9FB7-BBB8-C002-FE2B59ED7155</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4E1C4FE-AA59-596C-23C2-B3E8263B9B4A"/>
+<colUsage columnID="E232C090-59F0-B546-0A97-306A0832A356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C83820B-FA20-8A75-A68D-1FC6B8207106" name="Table_Model_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>71235017-61C5-F149-FC9B-CE15AB3BEC8A</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4E1C4FE-AA59-596C-23C2-B3E8263B9B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01182698-0C5C-2EF4-0A69-DA786797869E" name="Table_Term_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>CC290D11-6274-17DD-F58E-EBC448D2AE54</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E232C090-59F0-B546-0A97-306A0832A356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,10 @@
+Type_ID,Type_Name
+1,"Fact",
+2,"Dimension",
+3,"Logging",
+4,"Summary",
+5,"Temporary",
+6,"External",
+36D4C715-F78E-3CB0-7C8B-EFEEF29B0A98,"Anchor",
+7A9B9DD8-3545-FA8D-F5B3-9D7EEFBE1FD9,"Attribute",
+405D7AD6-92B0-3ECD-AE21-E4D93707003C,"Tie",

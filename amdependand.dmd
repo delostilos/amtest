@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="amdependand" id="88878D2F-D8C9-CBE3-E7AF-BFEA59001BB4" version="3.5">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:03:23 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>88878D2F-D8C9-CBE3-E7AF-BFEA59001BB4</designId>
+</OSDM_Design>

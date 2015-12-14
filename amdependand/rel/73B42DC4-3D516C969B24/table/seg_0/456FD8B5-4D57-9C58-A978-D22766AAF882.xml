@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="456FD8B5-4D57-9C58-A978-D22766AAF882" name="Model">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>34301E89-9B61-3C5E-3E01-30CB859FB5E5</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Model_ID" id="DFB8465F-2081-124D-6435-D60394C3687C">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Term_Term_ID" id="DA4ACE2D-A21E-0F60-EFA9-780682C2CD3F">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B0E33B8-B725-61CE-B8C4-DE220CBBC549" referredColumn="EC9010D6-80A9-AC19-DFA9-D0181256361B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E192A137-BC68-DF8E-67AD-9B7305C005C3" name="Model_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DFB8465F-2081-124D-6435-D60394C3687C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E41D50E1-D982-BF18-1326-02C2453A8D9B" name="Model__UN">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>F5F9C51F-F0A4-7487-FE01-5CF457C325AA</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4ACE2D-A21E-0F60-EFA9-780682C2CD3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D039F4A6-972A-5047-DC07-0616340ED590" name="Model_Term_FK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>2A56EF08-1012-448C-0FA1-21D96A08D7D0</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4ACE2D-A21E-0F60-EFA9-780682C2CD3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

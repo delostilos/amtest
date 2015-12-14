@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B9EF03C-8F0E-D5E0-471A-D26F15323E12" name="Term">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>338F9F90-129C-207B-EC9C-B36684F2DBB6</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="5DC4422C-07D7-8DCA-9F7B-BE5BA311664A">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>572C42F7-AB33-DF7C-07E5-B3C877F30E8D</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Term_ID" id="EC9010D6-80A9-AC19-DFA9-D0181256361B">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49F3AC1E-D9CF-4CDB-03F3-92FD2DA7B14A" name="Term_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EC9010D6-80A9-AC19-DFA9-D0181256361B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69DA05B4-4B32-5DEA-1F21-F0792AFC2A4A" name="Term_name_UN">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:23:46 UTC</createdTime>
+<generatorID>2E2F178E-3105-FFE1-4CE0-D11ACF228FC7</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DC4422C-07D7-8DCA-9F7B-BE5BA311664A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

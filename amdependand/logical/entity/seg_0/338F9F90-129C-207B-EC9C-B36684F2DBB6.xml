@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="338F9F90-129C-207B-EC9C-B36684F2DBB6" name="Term">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:08:22 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<engineerTo>
+<item key="74E22014-C126-F08D-87D0-494E8EA64158" value="true"/>
+<item key="73B42DC4-4FF2-31A9-5376-3D516C969B24" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="572C42F7-AB33-DF7C-07E5-B3C877F30E8D">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:08:34 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<engineerTo>
+<item key="74E22014-C126-F08D-87D0-494E8EA64158" value="true"/>
+<item key="73B42DC4-4FF2-31A9-5376-3D516C969B24" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E2F178E-3105-FFE1-4CE0-D11ACF228FC7" name="Name">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:13:00 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<engineerTo>
+<item key="74E22014-C126-F08D-87D0-494E8EA64158" value="true"/>
+<item key="73B42DC4-4FF2-31A9-5376-3D516C969B24" value="true"/>
+</engineerTo>
+<newElementsIDs>572C42F7-AB33-DF7C-07E5-B3C877F30E8D</newElementsIDs>
+<usedAttributes>
+<attributeRef>572C42F7-AB33-DF7C-07E5-B3C877F30E8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

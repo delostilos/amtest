@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38FF1D5D-8F88-7A43-2408-067EDD4E985A" name="Model">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:26:31 UTC</createdTime>
+<generatorID>34301E89-9B61-3C5E-3E01-30CB859FB5E5</generatorID>
+<ownerDesignName>amdependand</ownerDesignName>
+<typeID>36D4C715-F78E-3CB0-7C8B-EFEEF29B0A98</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Model_ID" id="16EE66AB-F0D6-1F27-BE5B-BEF6C7913C2B">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:26:31 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6C05D76-1E88-A983-4081-4DB6C5F62F34" name="Model_PK">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:26:31 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="16EE66AB-F0D6-1F27-BE5B-BEF6C7913C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

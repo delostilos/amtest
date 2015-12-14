@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="38FF1D5D-8F88-7A43-2408-067EDD4E985A" name="Model" seqName="seg_0"/>
+   <object objectType="Table" objectID="8B58FDA0-E96F-3946-91E4-7509AA851A02" name="Model_Name" seqName="seg_0"/>
+   <object objectType="Table" objectID="9C277520-57DE-C2C8-23A5-25352DEB9D5E" name="Table" seqName="seg_0"/>
+   <object objectType="Table" objectID="0EB785C5-ED3E-9BBA-4D30-1BC6D6A8DD04" name="Table_Name" seqName="seg_0"/>
+   <object objectType="Table" objectID="AB6579B6-C6D7-7300-D635-2BB6E9208D56" name="Term" seqName="seg_0"/>
+   <object objectType="Table" objectID="544623FE-78A9-35AB-497F-78B1F40AC858" name="Term_Name" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8817B5F8-D0F3-C6A5-0F89-E64B6BC6DAA3" name="FK_ASS_4" seqName="seg_0" containerID="8B58FDA0-E96F-3946-91E4-7509AA851A02" refContainerID="38FF1D5D-8F88-7A43-2408-067EDD4E985A"/>
+   <object objectType="FKIndexAssociation" objectID="8F1DA112-D88C-F132-DAEF-EC3A43D4E3A7" name="FK_ASS_5" seqName="seg_0" containerID="0EB785C5-ED3E-9BBA-4D30-1BC6D6A8DD04" refContainerID="9C277520-57DE-C2C8-23A5-25352DEB9D5E"/>
+   <object objectType="FKIndexAssociation" objectID="A00FF91E-962F-381B-9B2C-F49A2F798B7B" name="FK_ASS_6" seqName="seg_0" containerID="544623FE-78A9-35AB-497F-78B1F40AC858" refContainerID="AB6579B6-C6D7-7300-D635-2BB6E9208D56"/>
+   <object objectType="FKIndexAssociation" objectID="16738E1A-2814-5E9A-19C2-40325BC5C429" name="Model_Term_FKv1" seqName="seg_0" containerID="8B58FDA0-E96F-3946-91E4-7509AA851A02" refContainerID="AB6579B6-C6D7-7300-D635-2BB6E9208D56"/>
+   <object objectType="FKIndexAssociation" objectID="D8AB7B2E-5A55-0F7F-CA5D-C7DAC962CFA9" name="Table_Model_FKv1" seqName="seg_0" containerID="0EB785C5-ED3E-9BBA-4D30-1BC6D6A8DD04" refContainerID="38FF1D5D-8F88-7A43-2408-067EDD4E985A"/>
+   <object objectType="FKIndexAssociation" objectID="A49C3446-C1FB-FD29-BA45-833125425698" name="Table_Term_FKv1" seqName="seg_0" containerID="0EB785C5-ED3E-9BBA-4D30-1BC6D6A8DD04" refContainerID="AB6579B6-C6D7-7300-D635-2BB6E9208D56"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

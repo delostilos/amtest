@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ERD" id="73B42DC4-4FF2-31A9-5376-3D516C969B24" mainViewID="5F090B99-1E8C-0334-6303-7344091517D8">
+<createdBy>JJ</createdBy>
+<createdTime>2015-12-14 08:03:27 UTC</createdTime>
+<ownerDesignName>amdependand</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>980FCE9E-D688-BDF0-C89A-C9FB2DCAED45</selectedRDBMSSite>
+</relationalModel>
