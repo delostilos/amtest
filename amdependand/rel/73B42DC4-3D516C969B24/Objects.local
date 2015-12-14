@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12" name="Term" seqName="seg_0"/>
    <object objectType="Table" objectID="456FD8B5-4D57-9C58-A978-D22766AAF882" name="Model" seqName="seg_0"/>
    <object objectType="Table" objectID="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" name="Table" seqName="seg_0"/>
-   <object objectType="Table" objectID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12" name="Term" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="0B0E33B8-B725-61CE-B8C4-DE220CBBC549" name="Model_Term_FK" seqName="seg_0" containerID="456FD8B5-4D57-9C58-A978-D22766AAF882" refContainerID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12"/>
-   <object objectType="FKIndexAssociation" objectID="386E3AC1-139C-AD97-A64C-9AFC1D0F07E8" name="Table_Model_FK" seqName="seg_0" containerID="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" refContainerID="456FD8B5-4D57-9C58-A978-D22766AAF882"/>
-   <object objectType="FKIndexAssociation" objectID="C2B2C45D-A3B2-D6E9-FA20-C80849168153" name="Table_Term_FK" seqName="seg_0" containerID="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" refContainerID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12"/>
+   <object objectType="FKIndexAssociation" objectID="0B0E33B8-B725-61CE-B8C4-DE220CBBC549" name="Model_Term_FK" containerID="456FD8B5-4D57-9C58-A978-D22766AAF882" refContainerID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="386E3AC1-139C-AD97-A64C-9AFC1D0F07E8" name="Table_Model_FK" containerID="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" refContainerID="456FD8B5-4D57-9C58-A978-D22766AAF882" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C2B2C45D-A3B2-D6E9-FA20-C80849168153" name="Table_Term_FK" containerID="50CCA7D9-BEA0-265D-B9EF-BA4507C49159" refContainerID="3B9EF03C-8F0E-D5E0-471A-D26F15323E12" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

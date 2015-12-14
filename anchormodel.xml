@@ -1,0 +1,32 @@
+<schema format="0.99" date="2015-12-14" time="15:17:24">
+<metadata changingRange="datetime2(7)" encapsulation="metadata" identity="int" metadataPrefix="Metadata" metadataType="int" metadataUsage="false" changingSuffix="ChangedAt" identitySuffix="ID" positIdentity="int" positGenerator="true" positingRange="datetime" positingSuffix="PositedAt" positorRange="smallint" positorSuffix="Positor" reliabilityRange="smallint" reliabilitySuffix="Reliability" deleteReliability="0" assertionSuffix="Assertion" partitioning="false" entityIntegrity="true" restatability="false" idempotency="true" assertiveness="false" naming="improved" positSuffix="Posit" annexSuffix="Annex" chronon="datetime2(7)" now="sysdatetime()" dummySuffix="Dummy" versionSuffix="Version" statementTypeSuffix="StatementType" checksumSuffix="Checksum" businessViews="false" decisiveness="true" equivalence="false" equivalentSuffix="EQ" equivalentRange="smallint" databaseTarget="SQLServer" temporalization="uni"/>
+<anchor mnemonic="MD" descriptor="Model" identity="int">
+<metadata capsule="metadata" generator="true"/>
+<layout x="655.36" y="500.38" fixed="false"/>
+</anchor>
+<anchor mnemonic="TM" descriptor="Term" identity="int">
+<metadata capsule="metadata" generator="true"/>
+<attribute mnemonic="NAM" descriptor="Name" dataRange="varchar(max)">
+<metadata capsule="metadata"/>
+<layout x="684.35" y="468.06" fixed="false"/>
+</attribute>
+<layout x="710.06" y="444.45" fixed="false"/>
+</anchor>
+<anchor mnemonic="TB" descriptor="Table" identity="int">
+<metadata capsule="metadata" generator="true"/>
+<layout x="593.25" y="374.31" fixed="false"/>
+</anchor>
+<tie>
+<anchorRole role="has" type="MD" identifier="false"/>
+<anchorRole role="names" type="TM" identifier="false"/>
+<metadata capsule="metadata"/>
+<layout x="755.98" y="506.43" fixed="false"/>
+</tie>
+<tie>
+<anchorRole role="names" type="TM" identifier="false"/>
+<anchorRole role="in" type="TB" identifier="false"/>
+<anchorRole role="contains" type="MD" identifier="false"/>
+<metadata capsule="metadata"/>
+<layout x="619.49" y="430.22" fixed="false"/>
+</tie>
+</schema>

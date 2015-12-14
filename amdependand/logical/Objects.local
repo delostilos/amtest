@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="338F9F90-129C-207B-EC9C-B36684F2DBB6" name="Term" seqName="seg_0"/>
    <object objectType="Entity" objectID="34301E89-9B61-3C5E-3E01-30CB859FB5E5" name="Model" seqName="seg_0"/>
    <object objectType="Entity" objectID="9D61E4D3-0F44-B6FF-996D-A64D6E6E1F55" name="Table" seqName="seg_0"/>
-   <object objectType="Entity" objectID="338F9F90-129C-207B-EC9C-B36684F2DBB6" name="Term" seqName="seg_0"/>
    <object objectType="Relation" objectID="2A56EF08-1012-448C-0FA1-21D96A08D7D0" name="Model has Name" seqName="seg_0"/>
    <object objectType="Relation" objectID="71235017-61C5-F149-FC9B-CE15AB3BEC8A" name="Model has Tables" seqName="seg_0"/>
    <object objectType="Relation" objectID="CC290D11-6274-17DD-F58E-EBC448D2AE54" name="Table has Name" seqName="seg_0"/>
